@@ -1,7 +1,7 @@
 // https://programmers.co.kr/learn/courses/30/lessons/92334?language=kotlin
 // 신고 결과 받기
 
-class k_92334
+class Solution
 {
     fun solution(id: Array<String>, report: Array<String>, k: Int): Array<Int>
     {
@@ -46,9 +46,9 @@ class k_92334
 
 fun main(): Unit
 {
-    val p = k_92334()
+    val s = Solution()
 
-    println(p.solution(arrayOf("muzi", "frodo", "apeach", "neo"), arrayOf("muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"), 2))
+    println(s.solution(arrayOf("muzi", "frodo", "apeach", "neo"), arrayOf("muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"), 2))
 }
 
 /*
