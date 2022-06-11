@@ -1,2 +1,9 @@
-# Programmers_Algorithm
- 알고리즘 공부 및 코딩 테스트 준비
+# Programmers Algorithm
+
+https://programmers.co.kr/  
+코딩 테스트 준비 및 알고리즘 연습.
+
+## 주 언어  
+- Python  
+- Kotlin  
+- Java
