@@ -5,7 +5,7 @@ class k_42889
 {
     fun solution(num: Int, stages: IntArray): MutableList<Int>
     {
-        var answer = mutableListOf<Int>()
+        val answer = mutableListOf<Int>()
         var player = stages.size
         val challenger = mutableMapOf<Int, Int>()  // {스테이지 번호, 도전자 수}
         val failure = mutableMapOf<Int, Double>()  // {스테이지 번호, 실패율}
@@ -16,7 +16,7 @@ class k_42889
             challenger[i] = 0
             failure[i] = 0.0
         }
-        
+
         stages.forEach()
         {
             if(it != num + 1)
