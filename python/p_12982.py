@@ -12,5 +12,3 @@ def solution(team, budget):
         answer = answer + 1
     
     return answer
-
-print(solution([2,2,3,3], 10))
