@@ -10,7 +10,6 @@ def solution(numbers):
     for c in com:
         answer.add(c[0] + c[1])
     
-
     return sorted(list(answer))
 
 print(solution([5, 0, 2, 7]))
