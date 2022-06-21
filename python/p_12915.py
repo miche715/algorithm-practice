@@ -2,12 +2,4 @@
 # 문자열 내 마음대로 정렬하기
 
 def solution(strings, n):
-    answer = []
-    strings = sorted(strings, key = lambda x: x[n])
-    
-    print(strings)
-    
-    
-    return answer
-
-solution(["sun", "bed", "car"], 1)
+    return sorted(strings, key = lambda x: (x[n], x))
