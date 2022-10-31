@@ -14,4 +14,5 @@ def solution(ingredient):
                 stack.pop()
                 stack.pop()
                 answer = answer + 1
+
     return answer
