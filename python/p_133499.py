@@ -25,5 +25,3 @@ def solution(babbling):
             answer = answer + 1
         
     return answer
-
-print(solution(["ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"]))
