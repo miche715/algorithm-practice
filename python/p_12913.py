@@ -8,5 +8,3 @@ def solution(a, b):
         answer = answer + i
     
     return answer
-
-print(solution(3, 3))
