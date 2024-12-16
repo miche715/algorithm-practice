@@ -10,5 +10,3 @@ def solution(n):
     answer = int("".join(stack), 3)
     
     return answer
-
-print(solution(78413450))

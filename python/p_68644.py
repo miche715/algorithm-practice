@@ -11,5 +11,3 @@ def solution(numbers):
         answer.add(c[0] + c[1])
     
     return sorted(list(answer))
-
-print(solution([5, 0, 2, 7]))
