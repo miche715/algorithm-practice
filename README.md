@@ -1,7 +1,8 @@
-# Programmers Algorithm
+# algorithm_practice
 
 https://programmers.co.kr/  
-코딩 테스트 준비 및 알고리즘 연습.
+https://www.acmicpc.net/  
+https://www.codeit.kr/  
 
 ---
 ### 주 언어  
