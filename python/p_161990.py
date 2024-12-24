@@ -5,9 +5,8 @@ def solution(wallpaper):
     miny, minx, maxy, maxx = 51, 51, -1, -1
     
     for i in range(len(wallpaper)):
-        file = list(wallpaper[i])
-        for j in range(len(file)):
-            if file[j] == "#":
+        for j in range(len(wallpaper[i])):
+            if wallpaper[i][j] == "#":
                 if i <= miny:
                     miny = i
                 if i >= maxy:
