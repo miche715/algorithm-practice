@@ -1,5 +1,5 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/258712
-# 가장 많이 받은 서물
+# 가장 많이 받은 선물
 
 def solution(friends, gifts):
     answer = {}
