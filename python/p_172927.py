@@ -26,14 +26,14 @@ def solution(picks, minerals):
     for sr in sorted(stemina_ranking.items(), key=lambda x: x[1], reverse=True):
         for i in sr[0]:
             if picks[0] > 0:
-                pick = 0
                 answer = answer + stemina_diamond_pick[minerals[i]]
+                pick = 0
             elif picks[1] > 0:
-                pick = 1
                 answer = answer + stemina_iron_pick[minerals[i]]
+                pick = 1
             elif picks[2] > 0:
-                pick = 2
                 answer = answer + stemina_stone_pick[minerals[i]]
+                pick = 2
         picks[pick] = picks[pick] - 1
 
     return answer
