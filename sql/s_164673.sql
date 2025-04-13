@@ -1,0 +1,20 @@
+-- https://school.programmers.co.kr/learn/courses/30/lessons/164673
+-- 조건에 부합하는 중고거래 댓글 조회하기
+
+SELECT
+    T1.TITLE, 
+    T1.BOARD_ID, 
+    J1.REPLY_ID, 
+    J1.WRITER_ID, 
+    J1.CONTENTS, 
+    DATE_FORMAT(J1.CREATED_DATE, '%Y-%m-%d') AS CREATED_DATE
+FROM 
+    USED_GOODS_BOARD T1
+JOIN 
+    USED_GOODS_REPLY J1
+    ON T1.BOARD_ID = J1.BOARD_ID
+WHERE 
+    T1.CREATED_DATE BETWEEN '2022-10-01' AND '2022-10-31'
+ORDER BY
+    CREATED_DATE ASC, 
+    T1.TITLE ASC
