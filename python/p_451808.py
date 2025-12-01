@@ -37,9 +37,6 @@ def solution(n, submit):
 
         candinate = filter_candinate(candinate, answer, result)
         
-        # 여기서 이제 가장 최적의 다음 시도값(answer)을 찾으면 됨.
         answer = candinate[0]
 
     return answer
-
-
